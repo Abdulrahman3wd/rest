@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px) {
+    .Home-section {
+        height: 200vh;
+        flex-wrap: wrap;
+
+
+
+    }
+    .home-content-left-part {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        margin-top: 5,9375rem;
+        height: 100%;
+        order: 2;
+        margin-top: 20px;
+
+    }
+    .home-content-right-part img{
+        width: 100%;
+
+
+    }
+    .home-content-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .home-content-right-part {
+        width: 100%;
+        justify-content: center;
+        margin-top: 5,9375rem;
+
+        
+    }
+    .chefs {
+        width: 100%;
+    }
+    .gallery-images{
+        flex-direction: row;
+        height: auto;
+
+    }
+    .gallery-images picture {
+        width: 100%;
+    }
+    .details-width {
+        width: 100%;
+    }
+    .name-email-inp input {
+        width: 100%;
+        margin-top: 25px;
+  
+    }
+    .footer-width {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-width-c{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+    .our-chefs .chefs picture:before {
+   
+        height: 6rem;
+    }
+}

@@ -1,0 +1,122 @@
+.video-btn:hover {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    transition: all;
+    animation-duration: 400ms;
+    font-family: 'Open Sans', sans-serif; 
+    color: hsl(0.32deg, 83.26%, 44.51%) ;
+}
+.video-btn:hover img {
+    filter: invert(16%) sepia(74%) saturate(6707%) hue-rotate(358deg) brightness(85%) contrast(90%);
+}
+.home-content-right-part:hover img {
+    animation: shake 0.6s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px ,1px) rotate(0deg);}
+    10% { transform: translate(-1px ,-2px) rotate(-1deg);}
+    20% { transform: translate(-3px ,0px) rotate(1deg);}
+    30% { transform: translate(3px ,2px) rotate(0deg);}
+    40% { transform: translate(1px ,-1px) rotate(1deg);}
+    50% { transform: translate(-1px ,2px) rotate(-1deg);}
+    60% { transform: translate(-3px ,1px) rotate(0deg);}
+    70% { transform: translate(3 ,1px) rotate(-1);}
+    80% { transform: translate(-1px ,-1px) rotate(1deg);}
+    9% { transform: translate(1px ,2px) rotate(0deg);}
+    100% { transform: translate(1px ,-2px) rotate(-1deg);}
+    
+}
+
+.book-btn:hover {
+    padding: 0.625rem 1.5625rem;
+    border-radius: 0px 100vh 100vh;
+    background-color:hsl(0.32deg, 83.26%, 44.51%);
+    font-size: 0.9375rem;
+    cursor: pointer;
+    color: #fff;
+    border-width: 0.125rem;
+    border-color: transparent;
+    font-family: 'Open Sans', sans-serif; 
+    filter: brightness(110%);
+
+
+}
+
+.pizza-slice:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+.pizza:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+.burger:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+.steak:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+.kofta:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+.omelette:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+.fried:hover .layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    transform: translateY(0px);
+}
+button:hover {
+    filter: brightness(110%);
+}
+.footer-links ul li:hover {
+    width: 50%;     
+    margin-bottom: 8px;
+    background-color: rgba(212, 211, 211, 0.075);
+    transform: translateX(5px);
+}
+.chefs:hover{
+    transform: scale(1.05 ,1.05);
+
+}
